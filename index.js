@@ -17,7 +17,7 @@ var resolveDecl = require('./lib/resolve-decl');
 // A custom property is any property whose name starts with two dashes (U+002D HYPHEN-MINUS)
 // `--foo`
 // See: http://dev.w3.org/csswg/css-variables/#custom-property
-var RE_VAR_PROP = (/(--(.+))/);
+var RE_VAR_PROP = /^(--(.+))/;
 
 
 
